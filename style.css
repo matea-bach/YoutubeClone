@@ -1,0 +1,228 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background:#1f1f1f;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background:#1f1f1f;
+    position: fixed;
+    width:100%;
+    height: 4em;
+    padding-bottom: 10px;
+}
+.navbar img{
+    margin-right: 1em;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+header{
+   background-color: black;
+}
+.nav-search{
+    display: flex;
+    align-items: center;     
+}
+#search{
+    background-color: black;
+    border: 1.5px solid #333;
+    padding: 0.3em 0.6em;
+    height: 1.4em;
+    width: 45em;
+    color: #fff;
+}
+.nav-right{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-right: 10px;
+}
+button{
+    border: none;
+    background-color:#1f1f1f;
+    color: white;
+    font-size: 17px;
+}
+.container{
+    display: flex;
+    background:#1f1f1f;
+}
+.content{
+    margin-left: 45px;
+    margin-top: 70px;
+}
+.recommended{
+    display:flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 53px;
+    margin-left: 50px;
+    
+}
+ .video{
+     display: flex;
+     margin-top: 1.5em; 
+}
+.video img{
+    margin-right: 10px;
+}
+#text{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin:0;
+}
+
+#hashtag{
+    font-weight: 50;
+    color:#3ea6ff;
+    margin: 0;
+    padding-top: 1em;
+   }
+#viewstext{
+    color: white;
+    font-size: 15px;
+    font-weight: 50;
+    color: gray;
+    margin: 0em;
+    margin-top: 15px;
+ }
+
+.pagebreak{
+    background-color: #525252;
+    height: 1px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;   
+}
+#btndes{
+    display: flex;  
+    margin-left: 0.5em; 
+}
+#channel{
+    margin: 0;
+}
+#subscribers{
+    font-size: 12px;
+    color: lightgray;
+    margin: 0;
+}
+#undertext{
+    color: white;
+    font-size: 14px;
+    padding-left: 5em;
+}
+.channel-info{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+}
+.button-subscribe{
+    margin-left: auto;
+    background-color: #bd0000;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.channel-logo img{
+    border-radius: 50%;
+}
+.channel-name{
+    margin-left: 15px;
+}
+.comments{
+    display: flex;
+    align-items: center;
+    margin: 1.5em;
+}
+.comments-count{
+    color: white;
+    font-size: 16px;
+}
+.sort-button{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.user-logo{
+    display: flex;
+    align-items: center;   
+    margin-left: 20px; 
+}
+.user-logo img{
+    border-radius: 50%; 
+}
+.comment-input{ 
+    margin-left: 1em;
+    align-items: center;    
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;  
+    width:96%;   
+    border-bottom: 1px solid#393939;
+}
+.user-comments{
+    display: flex;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+.user-avatar img{
+    border-radius: 50%;
+}
+.name{
+    color: white;
+    margin-left: 14px;
+}
+.date-time{
+    color:#525252 ;
+}
+.user-text{
+    color: white;
+    margin-left: 13px;
+    padding-top: 10px;
+}
+.comment-buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.comment-buttons img {
+    padding-right: 10px;
+}
+.comment-buttons span{
+    padding-right: 10px;
+}
+.reply{
+    color: gray;
+    padding: 1rem;  
+}
+.number-of-likes{
+    color: white;
+}
+.fakelink{
+    color:#3ea6ff;
+}
+
+
+
+
+
+
